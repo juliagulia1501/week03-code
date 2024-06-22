@@ -1,0 +1,79 @@
+
+<!--This is the homepage for the Week 3 coding assignment using bootstrap.-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+<!--This is the link that calls to the bootstrap CSS, just as the styles.css link calls to the style CSS page.-->
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+
+</head>
+<!--Section 1 for navbar on top of page.-->
+
+<!--class added with background color info as well as text align to center.-->
+<body class="bg-info text-white text-center"  >
+    <!--class added on Page Header with padding and font change.-->
+    <h1 class="text-monospace pb-3 pt-5 font-weight-bold">Plant Information Page</h1>
+
+    <!-- Navbar content with no drop down included. -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand " href="#">Navigation:</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="plants.html">Plants</a>
+                </li>
+              </ul>
+              
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search Here" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+             
+            </div>
+      </nav>
+
+
+      <!--Section 2 paragraph with information of webpage with simple image.
+         Using a bootstrap grid with container to format contents and included responsive vertical stacking.-->
+      <h2 class="pt-3 pb-3 font-weight-bold">The Benefits of Houseplants</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6"> <img  class="img-fluid img-thumbnail" alt="house plants" width=600 src="https://mossballpets.com/cdn/shop/files/House-Plants-Header-01.jpg?v=1713219256&width=3584">
+        </div>
+        <div class=" col-lg-6 pt-3">
+            <p>
+                When you feel down, it’s amazing what a walk in the park can do. That’s because when we get in touch 
+                with nature, we improve our wellbeing. Studies show time spent outside in green spaces can reduce our 
+                mental fatigue, increase our relaxation, and even improve our cognition.
+                However, according to the U.S. Environmental Protection Agency, we spend a considerable amount of our 
+                time indoors instead—around 90%. That is where indoor plants can come to the rescue. Although they are 
+                not a substitute for the ‘great outdoors’, indoor plants can provide similar benefits. Studies have shown 
+                even brief exposure to nature, like touching real foliage, can elicit an unconscious calming effect. 
+                And not only can the presence of indoor plants soothe and restore—but scientific field studies have shown 
+                that in workspaces where indoor plants have been added, work performance increased, staff wellbeing improved, 
+                and sick-leave absences were reduced. Talk about plants with benefits!
+            </p>
+        </div>
+        </div>
+      </div>
+     
+
+
+
+</body>
+</html>
